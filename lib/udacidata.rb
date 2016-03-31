@@ -17,10 +17,8 @@ class Udacidata
   end
 
   def self.create(attributes = nil)
-    # create the object
     item = self.new(**attributes)
     add_to_database(item)
-    # return the object
     item
   end
 
